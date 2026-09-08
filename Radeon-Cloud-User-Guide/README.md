@@ -12,26 +12,63 @@
 
 ![Radeon Cloud 登录页面](./assets/login.png)
 
+### 添加 SSH 公钥
+
+在 Profile 页面添加 SSH 公钥：
+
+1. 如果本地还没有密钥对，请生成一组密钥（已有密钥可跳过）。macOS、Linux 和 Windows PowerShell 均可运行：
+
+   ```bash
+   ssh-keygen -t ed25519 -C "your_email@example.com"
+   ```
+
+   默认会生成 `~/.ssh/id_ed25519`（私钥）和 `~/.ssh/id_ed25519.pub`（公钥）。
+2. 复制公钥内容：
+
+   ```bash
+   cat ~/.ssh/id_ed25519.pub
+   ```
+
+3. 点击 **Settings**，再点击 **New SSH Key**。
+4. 将公钥粘贴到 SSH key 输入框，然后点击 **New SSH Key** 保存。
+
+![在 Profile 中添加 SSH 公钥](./assets/ssh-key.png)
+
+> ⚠️ 只能复制 `.pub` 公钥，绝不要上传或分享 `id_ed25519` 私钥。
+
 ## 2. 进入开发环境
 
 登录后，在实例配置页面依次完成以下选择：
 
 1. 点击 **Customize**。
-2. 选择合适的 GPU 数量，推荐选择 **4 GPUs**。
+2. 根据实际需求选择 GPU 数量，可选择 **4 GPUs** 或 **8 GPUs**。
 3. 在 **Image** 中选择 **robotwin**。
-4. 在 **Mount a model** 中选择 **Devzone**。
+4. 在 **Resource Pool** 中选择本次比赛对应的资源池。
+5. 在 **Mount a model** 中选择 **Devzone**。
 
-![实例配置：Customize、4 GPUs、robotwin 和 Devzone](./assets/launch.png)
+![实例配置：Customize、4/8 GPUs、robotwin 和 Devzone](./assets/launch.png)
 
-配置完成后进入实例，待页面显示 **Your workspace is ready (100%)**，点击 **Open Notebook**。
+配置完成后进入实例，待页面显示 **Your workspace is ready**，实例启动成功。
 
 ### 使用 JupyterLab
 
-浏览器会打开 JupyterLab。在其中可以使用 Terminal、Notebook 和 File browser 完成开发工作。
+点击 **Open Notebook**，浏览器会打开 JupyterLab。在其中可以使用 Terminal、Notebook 和 File browser 完成开发工作。
 
 ![Open Notebook](./assets/open-notebook.png)
 
 ![JupyterLab 工作区](./assets/jupyterlab.png)
+
+### 使用 SSH
+
+实例显示 **Instance running** 后，点击进入实例，再复制 SSH 窗口中的连接信息。使用本地终端连接：
+
+```bash
+ssh <user>@<host> -p <port>
+```
+
+请将 `<user>`、`<host>` 和 `<port>` 替换为页面显示的实际值。
+
+![SSH access 与连接信息](./assets/ssh-connect.png)
 
 ## 3. 销毁实例
 

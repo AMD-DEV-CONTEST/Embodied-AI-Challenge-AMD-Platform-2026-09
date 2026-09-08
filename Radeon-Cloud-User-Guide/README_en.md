@@ -12,22 +12,47 @@ Open [Radeon Cloud](https://radeon-global.anruicloud.com/), click **Login** in t
 
 ![Radeon Cloud login page](./assets/login.png)
 
+### Add your SSH public key
+
+Add your SSH public key on the Profile page:
+
+1. Generate a key pair locally if you do not already have one. This works on macOS, Linux, and Windows PowerShell:
+
+   ```bash
+   ssh-keygen -t ed25519 -C "your_email@example.com"
+   ```
+
+   By default, this creates `~/.ssh/id_ed25519` (private key) and `~/.ssh/id_ed25519.pub` (public key).
+2. Copy the public key content:
+
+   ```bash
+   cat ~/.ssh/id_ed25519.pub
+   ```
+
+3. Click **Settings**, then click **New SSH Key**.
+4. Paste the public key into the SSH key field, then click **New SSH Key** to save it.
+
+![Add an SSH public key in Profile](./assets/ssh-key.png)
+
+> ⚠️ Copy only the `.pub` public key. Never upload or share the `id_ed25519` private key.
+
 ## Step 2: Enter the development environment
 
 After logging in, configure the instance as follows:
 
 1. Click **Customize**.
-2. Select a suitable number of GPUs; **4 GPUs** is recommended.
+2. Select the GPU count according to your needs: **4 GPUs** or **8 GPUs**.
 3. Select **robotwin** under **Image**.
-4. Select **Devzone** under **Mount a model**.
+4. Under **Resource Pool**, select the resource pool for this competition.
+5. Select **Devzone** under **Mount a model**.
 
-![Instance configuration: Customize, 4 GPUs, robotwin, and Devzone](./assets/launch.png)
+![Instance configuration: Customize, 4/8 GPUs, robotwin, and Devzone](./assets/launch.png)
 
-After completing the configuration, enter the instance. When the page shows **Your workspace is ready (100%)**, click **Open Notebook**.
+After completing the configuration, enter the instance. When the page shows **Your workspace is ready**, the instance has started successfully.
 
 ### JupyterLab
 
-JupyterLab opens in a new browser tab. Use its Terminal, Notebook, and File browser for development.
+Click **Open Notebook**. JupyterLab opens in a new browser tab. Use its Terminal, Notebook, and File browser for development.
 
 ![Open Notebook](./assets/open-notebook.png)
 
@@ -38,6 +63,18 @@ JupyterLab provides:
 - **File browser** for uploading and managing files.
 
 ![JupyterLab workspace](./assets/jupyterlab.png)
+
+### SSH access
+
+When the instance shows **Instance running**, click it and copy the connection information from the SSH window. Connect from a local terminal:
+
+```bash
+ssh <user>@<host> -p <port>
+```
+
+Replace `<user>`, `<host>`, and `<port>` with the actual values shown on the page.
+
+![SSH access and connection details](./assets/ssh-connect.png)
 
 ## Step 3: Destroy the instance
 

@@ -16,7 +16,7 @@
 
 ## Radeon Cloud 使用指南
 
-Radeon Cloud 的注册、实例创建、JupyterLab / SSH 连接、模型 API、Tunnel 和实例销毁流程，请参阅 [Radeon Cloud User Guide](./Radeon-Cloud-User-Guide/README.md)。
+Radeon Cloud 的登录、实例配置、JupyterLab 使用和实例销毁流程，请参阅 [Radeon Cloud User Guide](./Radeon-Cloud-User-Guide/README.md)。
 
 ## Robotwin 参考
 

@@ -16,7 +16,7 @@ Direct registration link: <https://developer.amd.com.cn/login?source=sSEUZ7cAA>
 
 ## Radeon Cloud User Guide
 
-For Radeon Cloud registration, instance creation, JupyterLab / SSH access, Model APIs, Tunnel, and instance destruction, see the [Radeon Cloud User Guide](./Radeon-Cloud-User-Guide/README_en.md).
+For Radeon Cloud login, instance configuration, JupyterLab access, and instance destruction, see the [Radeon Cloud User Guide](./Radeon-Cloud-User-Guide/README_en.md).
 
 ## Robotwin Reference
 
