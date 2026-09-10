@@ -2,11 +2,13 @@
 
 [中文版本](./README.md)
 
-# Ant Lingbot Embodied Foundation Model Challenge · AMD Radeon GPU Compute Support Guide
+# Ant Lingbot Embodied Foundation Model Challenge · AMD Contest-Dedicated Compute Claim Guide
 
 This page explains how to obtain AMD Radeon GPU compute resources for the Ant Lingbot Embodied Foundation Model Challenge and the AMD benefits available to participating developers.
 
-As a strategic partner of this contest, AMD will provide developers with development resources based on the W7900D GPU (48GB GDDR6) on the Radeon Cloud platform and the ROCm open-source AI software stack. These resources help developers complete model post-training on AMD platforms and perform Robotwin task evaluation. Eligible participants may apply for AMD compute support during the contest.
+As a strategic partner of this contest, AMD is providing additional development resources for participating teams with GPU compute needs: contest-dedicated compute on the Radeon Cloud platform together with the ROCm open-source AI software stack. These resources help developers complete model post-training on AMD platforms and perform Robotwin task evaluation. Eligible participants may voluntarily apply for AMD compute support during the contest.
+
+The compute resources are strictly limited to this contest. If they are found to be used for other purposes, access to the compute platform will be revoked.
 
 ## 1. How to obtain AMD Radeon GPU resources
 
@@ -32,7 +34,7 @@ After completing contest registration, AMD Developer Program registration, and j
 
 > **Important:** AMD will provide eligible contest teams with dedicated Radeon GPU credits so that teams can participate in contest development and testing without preparing their own training compute resources. For detailed compute application and usage rules, see the [AMD Compute Application and Usage Rules](./Radeon-Cloud-User-Guide/AMD_VLA_Contest_Compute_Rules_en.md).
 
-Compute platform availability: **September 15, 2026, 14:00 to October 26, 2026, 20:00**. The baseline resource provision is **200 GPUs**; the available scale may be adjusted dynamically according to event priorities at later stages. The compute resources are strictly limited to this contest. If they are found to be used for other purposes, access to the compute platform will be revoked.
+Compute platform availability: **September 15, 2026, 14:00 to October 26, 2026, 20:00**. The baseline resource provision is **200 GPUs**; the available scale may be adjusted dynamically according to event priorities at later stages.
 
 ## 2. Radeon Cloud User Guide
 
@@ -59,10 +61,9 @@ Refer to the example repository for the exact environment setup, data preparatio
 | --- | --- |
 | Dedicated compute | Every eligible contest team may receive AMD Radeon GPU credits |
 | Development environment | The AMD Radeon Cloud platform provides W7900D GPUs (48GB GDDR6) and the ROCm open-source AI software stack |
-| Credit rewards | Teams that complete their work on the AMD platform and submit contest results may receive additional AMD developer credits, with opportunities to redeem additional free compute |
+| Credit rewards | Developers who use AMD compute to complete and successfully submit their projects will receive an additional 100 AMD Developer Program points; newly registered participants can receive 250 points in total. The points can be used to redeem platform compute resources. |
 | Official exposure | Outstanding projects may receive opportunities for featured coverage in the official AMD developer community, technical livestream programs, and ROCm community exposure |
-| Physical prizes | Particularly outstanding projects may have the opportunity to win physical AMD Radeon graphics card prizes in the final |
-| Content incentive | High-quality content sharing AMD platform development practices on Xiaohongshu while mentioning the AMD Developer Center may be selected for official reposting, community recommendation, and Spotlight presentation |
+| Physical prizes | Teams that use AMD GPUs to develop their projects and place in the top three in the final will additionally receive physical AMD Radeon RX 9000 Series graphics card prizes; the exact model depends on the actual prize distribution. |
 
 ## 4. AMD Developer Content Incentive (Xiaohongshu)
 
