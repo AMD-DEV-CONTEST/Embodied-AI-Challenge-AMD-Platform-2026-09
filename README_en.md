@@ -10,6 +10,12 @@ As a strategic partner of this contest, AMD is providing additional development 
 
 The compute resources are strictly limited to this contest. If they are found to be used for other purposes, access to the compute platform will be revoked.
 
+### For AMD GPU compute inquiries, scan the QR code to contact the AMD Compute Support Team.
+
+<div align="center">
+<img src="./AMD_GPU_support_group.jpg" alt="AMD GPU 算力支持团队二维码" width="200"/>
+</div>
+
 ## 1. How to obtain AMD Radeon GPU resources
 
 ### Step 1: Complete contest registration
