@@ -79,3 +79,9 @@ AMD 同样鼓励参赛选手记录基于 AMD Radeon GPU 与 ROCm 开源软件栈
 
 AMD 将定期选取优质开发者内容进行官方转发、社区推荐及 Spotlight 展示。
 
+## 五、AMD GPU 算力问题咨询
+
+如在申请或使用 AMD Radeon GPU Credits 过程中遇到问题，欢迎扫码咨询 AMD 算力支持团队。
+
+![AMD GPU 算力支持团队二维码](./AMD_GPU_support_group.jpg)
+
