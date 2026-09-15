@@ -13,7 +13,7 @@
 ### 任何关于AMD GPU 算力问题，欢迎扫码咨询 AMD 算力支持团队。
 
 <div align="center">
-<img src="./AMD_GPU_support_group.jpg" alt="AMD GPU 算力支持团队二维码" width="200"/>
+<img src="./assets/AMD_GPU_support_group.jpg" alt="AMD GPU 算力支持团队二维码" width="200"/>
 </div>
 
 ## 一、如何获取 AMD Radeon GPU 资源
@@ -24,7 +24,7 @@
 
 ### Step 2：完成 AMD 开发者计划注册
 
-![专属 ADP 注册二维码](./lingbot_contest_ADP.jpg)
+![专属 ADP 注册二维码](./assets/lingbot_contest_ADP.jpg)
 
 或访问以下链接完成 AMD 开发者计划（ADP）注册：
 
@@ -34,9 +34,13 @@ https://developer.amd.com.cn/login?source=sSEUZ7cAA
 
 完成报名与 ADP 注册后，加入赛事官方交流群，获取算力申请入口及后续通知。
 
-### Step 4：由团队代表提交 GPU 资源申请
+算力申请表入口：https://developer.amd.com.cn/contestgpu_apply01
 
-完成赛事报名、AMD 开发者计划注册、并加入官方比赛交流群后，可由团队代表申请赛事专属 Radeon GPU 资源，申请时需提供AMD ADP会员ID。
+![AMD 算力申请表入口](./assets/AMD_Compute_Resource_Application_link.png)
+
+### Step 4：由队长提交 GPU 资源申请
+
+完成赛事报名、AMD 开发者计划注册、并加入官方比赛交流群后，可由队长申请赛事专属 Radeon GPU 资源，申请时需提供AMD ADP会员ID。
 
 > **重要：** AMD 将为符合条件的参赛队伍提供专属 Radeon GPU Credits，无需自备训练算力即可参与赛事开发与测试。具体的算力申请与使用规则请参阅 [AMD 算力申请与使用规则](./Radeon-Cloud-User-Guide/AMD_VLA_Contest_Compute_Rules.md)。
 
@@ -83,5 +87,4 @@ AMD 将定期选取优质开发者内容进行官方转发、社区推荐及 Spo
 
 如在申请或使用 AMD Radeon GPU Credits 过程中遇到问题，欢迎扫码咨询 AMD 算力支持团队。
 
-![AMD GPU 算力支持团队二维码](./AMD_GPU_support_group.jpg)
-
+![AMD GPU 算力支持团队二维码](./assets/AMD_GPU_support_group.jpg)

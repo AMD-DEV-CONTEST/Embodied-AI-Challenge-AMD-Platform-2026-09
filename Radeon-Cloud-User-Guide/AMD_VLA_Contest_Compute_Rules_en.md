@@ -31,13 +31,12 @@ Teams are expected to perform full-parameter training based on the `lingbot-vla-
 
 ### Evaluation time and credits
 
-The estimates below use the current baseline: `50 tasks × 50 episodes` takes approximately 6 hours 50 minutes on 4 GPUs, while 8 GPUs are expected to take about half as long. Other scales are estimated approximately linearly by task and episode count.
+The figures below are based on measured results from the clean and randomized evaluation runs in the RoboTwin reproduction workflow: combined, `100 tasks × 10 episodes` takes approximately 18 hours 55 minutes on 4 GPUs and 15 hours 12 minutes on 8 GPUs. `100 tasks × 100 episodes` is estimated at 10 times the duration by scaling linearly with the number of tasks and episodes; credits are calculated by GPU-hour and rounded.
 
 | Evaluation scale | 4-GPU time | 4-GPU credits | 8-GPU time | 8-GPU credits |
 | --- | ---: | ---: | ---: | ---: |
-| `50 tasks × 20 episodes` quick directional evaluation | about 2 h 44 min | about 11 | about 1 h 22 min | about 11 |
-| `50 tasks × 50 episodes` evaluation | about 6 h 50 min | about 27 | about 3 h 25 min | about 27 |
-| `100 tasks × 100 episodes` full evaluation | about 27 h 20 min | about 109 | about 13 h 40 min | about 109 |
+| `100 tasks × 10 episodes` (clean + randomized) | about 18 h 55 min | about 76 | about 15 h 12 min | about 122 |
+| `100 tasks × 100 episodes` full evaluation (linear estimate) | about 189 h 18 min | about 758 | about 152 h 3 min | about 1,217 |
 
 The final `100 tasks × 100 episodes` evaluation will be conducted uniformly by the contest organizers after the contest. The training and evaluation figures above are planning references; actual time may vary due to data loading, environment startup, checkpoint saving, evaluation configuration, and task complexity.
 
@@ -175,7 +174,7 @@ Use: approximately 10k-step training + 50 tasks × 20 episodes quick evaluation
 Stage 2: 1,600 credits
 Use: continued training, multiple 10k-step directional tests, or one complete 30k-step training run
 
-Unified evaluation after the contest: 100 tasks × 100 episodes
+Unified evaluation after the contest: 100 tasks × 100 episodes; about 758 credits/team on 4 GPUs or 1,217 credits/team on 8 GPUs, excluding instance startup, retries, and evaluation failures
 
 Queue unit: team
 Duplicate queue entries by the same team: not allowed

@@ -13,7 +13,7 @@ The compute resources are strictly limited to this contest. If they are found to
 ### For AMD GPU compute inquiries, scan the QR code to contact the AMD Compute Support Team.
 
 <div align="center">
-<img src="./AMD_GPU_support_group.jpg" alt="AMD GPU 算力支持团队二维码" width="200"/>
+<img src="./assets/AMD_GPU_support_group.jpg" alt="AMD GPU 算力支持团队二维码" width="200"/>
 </div>
 
 ## 1. How to obtain AMD Radeon GPU resources
@@ -24,7 +24,7 @@ Contest entrance: https://tianchi.aliyun.com/competition/entrance/532514
 
 ### Step 2: Complete AMD Developer Program registration
 
-![Dedicated ADP registration QR code](./lingbot_contest_ADP.jpg)
+![Dedicated ADP registration QR code](./assets/lingbot_contest_ADP.jpg)
 
 Alternatively, visit the following link to complete AMD Developer Program (ADP) registration:
 
@@ -34,9 +34,13 @@ https://developer.amd.com.cn/login?source=sSEUZ7cAA
 
 After completing contest registration and ADP registration, join the official contest group to obtain the compute application entry and follow-up notices.
 
-### Step 4: Have a team representative submit the GPU resource request
+Compute resource application form: https://developer.amd.com.cn/contestgpu_apply01
 
-After completing contest registration, AMD Developer Program registration, and joining the official contest group, a team representative may apply for the contest-exclusive Radeon GPU resources. The application must provide the AMD ADP member ID.
+![AMD compute resource application form](./assets/AMD_Compute_Resource_Application_link.png)
+
+### Step 4: Have the team leader submit the GPU resource request
+
+After completing contest registration, AMD Developer Program registration, and joining the official contest group, the team leader may apply for the contest-exclusive Radeon GPU resources. The application must provide the AMD ADP member ID.
 
 > **Important:** AMD will provide eligible contest teams with dedicated Radeon GPU credits so that teams can participate in contest development and testing without preparing their own training compute resources. For detailed compute application and usage rules, see the [AMD Compute Application and Usage Rules](./Radeon-Cloud-User-Guide/AMD_VLA_Contest_Compute_Rules_en.md).
 
@@ -83,4 +87,4 @@ AMD will regularly select high-quality developer content for official reposting,
 
 If you encounter problems when applying for or using AMD Radeon GPU Credits, scan the QR code to contact the AMD compute support team.
 
-![AMD GPU compute support group QR code](./AMD_GPU_support_group.jpg)
+![AMD GPU compute support group QR code](./assets/AMD_GPU_support_group.jpg)

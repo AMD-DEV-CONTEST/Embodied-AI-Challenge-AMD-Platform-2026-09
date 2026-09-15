@@ -2,15 +2,23 @@
 
 [English version](./README_en.md)
 
-本指南介绍如何在 [Radeon Cloud](https://radeon-global.anruicloud.com/) 上申请 AMD Radeon GPU，并进入开发、训练和推理环境。
+本指南介绍如何在 [Radeon Cloud](https://developer.amd.com.cn/radeon/) 上申请 AMD Radeon GPU，并进入开发、训练和推理环境。
 
 本文使用 `assets/` 目录中的最新界面截图；平台界面如有变化，请以实际页面为准。
 
 ## 1. 登录
 
-打开 [Radeon Cloud](https://radeon-global.anruicloud.com/)，点击 **Login → Login with Email** 完成登录。
+打开 [Radeon Cloud](https://developer.amd.com.cn/radeon/)，点击 **Login → Login with Email** 完成登录。
 
 ![Radeon Cloud 登录页面](./assets/login.png)
+
+### 切换到新版界面
+
+用户登录后默认进入 **Classic** 风格界面。点击页面右下角的 **Switch to the new design**，切换到 **New** 风格。
+
+![Radeon Cloud Classic 风格界面](./assets/classic_radeon_cloud.png)
+
+![Radeon Cloud New 风格界面](./assets/new_radeon_cloud.png)
 
 ### 添加 SSH 公钥
 
@@ -43,7 +51,7 @@
 1. 点击 **Customize**。
 2. 根据实际需求选择 GPU 数量，可选择 **4 GPUs** 或 **8 GPUs**。
 3. 在 **Image** 中选择 **robotwin**。
-4. 在 **Resource Pool** 中选择本次比赛对应的资源池。
+4. 在 **Resource Pool** 中选择本次比赛对应的资源池 **Dev**。
 5. 在 **Mount a model** 中选择 **Devzone**。
 
 ![实例配置：Customize、4/8 GPUs、robotwin 和 Devzone](./assets/launch.png)

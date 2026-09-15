@@ -2,15 +2,23 @@
 
 [中文版本](./README.md)
 
-This guide explains how to obtain an AMD Radeon GPU on [Radeon Cloud](https://radeon-global.anruicloud.com/) and enter an environment for development, training, and inference.
+This guide explains how to obtain an AMD Radeon GPU on [Radeon Cloud](https://developer.amd.com.cn/radeon/) and enter an environment for development, training, and inference.
 
 This guide uses the latest interface screenshots in the `assets/` directory. If the platform UI changes, follow the actual page.
 
 ## Step 1: Log in
 
-Open [Radeon Cloud](https://radeon-global.anruicloud.com/), click **Login** in the top-right corner, and choose **Login with Email**.
+Open [Radeon Cloud](https://developer.amd.com.cn/radeon/), click **Login** in the top-right corner, and choose **Login with Email**.
 
 ![Radeon Cloud login page](./assets/login.png)
+
+### Switch to the new design
+
+After logging in, users are taken to the **Classic** design by default. Click **Switch to the new design** in the bottom-right corner of the page to switch to the **New** design.
+
+![Radeon Cloud Classic design](./assets/classic_radeon_cloud.png)
+
+![Radeon Cloud New design](./assets/new_radeon_cloud.png)
 
 ### Add your SSH public key
 
@@ -43,7 +51,7 @@ After logging in, configure the instance as follows:
 1. Click **Customize**.
 2. Select the GPU count according to your needs: **4 GPUs** or **8 GPUs**.
 3. Select **robotwin** under **Image**.
-4. Under **Resource Pool**, select the resource pool for this competition.
+4. Under **Resource Pool**, select the resource pool for this competition: **Dev**.
 5. Select **Devzone** under **Mount a model**.
 
 ![Instance configuration: Customize, 4/8 GPUs, robotwin, and Devzone](./assets/launch.png)
