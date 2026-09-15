@@ -38,9 +38,9 @@ Compute resource application form: https://developer.amd.com.cn/contestgpu_apply
 
 ![AMD compute resource application form](./assets/AMD_Compute_Resource_Application_link.png)
 
-### Step 4: Have the team leader submit the GPU resource request
+### Step 4: Have the team submit the GPU resource request
 
-After completing contest registration, AMD Developer Program registration, and joining the official contest group, the team leader may apply for the contest-exclusive Radeon GPU resources. The application must provide the AMD ADP member ID.
+After completing contest registration, AMD Developer Program registration, and joining the official contest group, the team should submit the application for the contest-exclusive Radeon GPU resources. The application must provide the contest registration team ID. Every team member must complete the form. The member list will serve as an important basis for AMD’s assessment of additional resources and for distributing post-contest points and certificates. Compute resources will be queued and allocated by team in the order applications are submitted. Each team may designate only one team leader, who is responsible for receiving contest compute resources and coordinating with AMD.
 
 > **Important:** AMD will provide eligible contest teams with dedicated Radeon GPU credits so that teams can participate in contest development and testing without preparing their own training compute resources. For detailed compute application and usage rules, see the [AMD Compute Application and Usage Rules](./Radeon-Cloud-User-Guide/AMD_VLA_Contest_Compute_Rules_en.md).
 

@@ -52,7 +52,8 @@ After logging in, configure the instance as follows:
 2. Select the GPU count according to your needs: **4 GPUs** or **8 GPUs**.
 3. Select **robotwin** under **Image**.
 4. Under **Resource Pool**, select the resource pool for this competition: **Dev**.
-5. Select **Devzone** under **Mount a model**.
+5. Under **Workspace Storage**, select **Persistent /workspace**.
+6. Select **Devzone** under **Mount a model**.
 
 ![Instance configuration: Customize, 4/8 GPUs, robotwin, and Devzone](./assets/launch.png)
 

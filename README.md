@@ -38,9 +38,9 @@ https://developer.amd.com.cn/login?source=sSEUZ7cAA
 
 ![AMD 算力申请表入口](./assets/AMD_Compute_Resource_Application_link.png)
 
-### Step 4：由队长提交 GPU 资源申请
+### Step 4：由团队提交 GPU 资源申请
 
-完成赛事报名、AMD 开发者计划注册、并加入官方比赛交流群后，可由队长申请赛事专属 Radeon GPU 资源，申请时需提供AMD ADP会员ID。
+完成赛事报名、AMD 开发者计划注册、并加入官方比赛交流群后，由团队提交赛事专属 Radeon GPU 资源申请，申请时需填写大赛注册团队 ID。请团队每位成员都完成填写。成员名单将作为 AMD 评估额外资源追加、赛后积分与证书发放的重要依据。本次算力以队伍为单位排队发放，按照提交顺序排队，每支队伍仅可指定 1 名队长（负责接收赛事算力资源、与 AMD 对接）。
 
 > **重要：** AMD 将为符合条件的参赛队伍提供专属 Radeon GPU Credits，无需自备训练算力即可参与赛事开发与测试。具体的算力申请与使用规则请参阅 [AMD 算力申请与使用规则](./Radeon-Cloud-User-Guide/AMD_VLA_Contest_Compute_Rules.md)。
 

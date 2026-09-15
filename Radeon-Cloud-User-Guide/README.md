@@ -52,7 +52,8 @@
 2. 根据实际需求选择 GPU 数量，可选择 **4 GPUs** 或 **8 GPUs**。
 3. 在 **Image** 中选择 **robotwin**。
 4. 在 **Resource Pool** 中选择本次比赛对应的资源池 **Dev**。
-5. 在 **Mount a model** 中选择 **Devzone**。
+5. 在 **Workspace Storage** 中选择 **Persistent /workspace**。
+6. 在 **Mount a model** 中选择 **Devzone**。
 
 ![实例配置：Customize、4/8 GPUs、robotwin 和 Devzone](./assets/launch.png)
 

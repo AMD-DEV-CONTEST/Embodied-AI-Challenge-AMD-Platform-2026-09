@@ -29,12 +29,12 @@
 
 ### 评测耗时与 credits
 
-以下数据根据 RoboTwin 参考复现流程中 clean 与 randomized 两组评测的实测结果整理：合计 `100 task × 10 episodes` 在 4 GPUs 上约需 18 小时 55 分钟，在 8 GPUs 上约需 15 小时 12 分钟。`100 task × 100 episodes` 按任务数和 episodes 数量近似线性估算为 10 倍耗时；credits 按 GPU-hour 计算并取整。
+以下评测时间按照现有基准进行估算：合计 `100 task × 10 episodes` 在 8 GPUs 上约需 5 小时，4 GPUs 按约 2 倍墙钟时间估算为 10 小时。`100 task × 100 episodes` 按任务数和 episodes 数量近似线性估算为 10 倍耗时；credits 按 GPU-hour 计算并取整。
 
 | 评测规模 | 4 GPUs 耗时 | 4 GPUs credits | 8 GPUs 耗时 | 8 GPUs credits |
 | --- | ---: | ---: | ---: | ---: |
-| `100 task × 10 episodes`（clean + randomized） | 约 18 小时 55 分钟 | 约 76 | 约 15 小时 12 分钟 | 约 122 |
-| `100 task × 100 episodes` 完整评测（线性估算） | 约 189 小时 18 分钟 | 约 758 | 约 152 小时 3 分钟 | 约 1,217 |
+| `100 task × 10 episodes` | 约 10 小时 | 约 40 | 约 5 小时 | 约 40 |
+| `100 task × 100 episodes` 完整评测（线性估算） | 约 100 小时 | 约 400 | 约 50 小时 | 约 400 |
 
 最终 `100 task × 100 episodes` 由赛事组在比赛结束后统一执行。上述训练和评测数据均为资源规划参考，实际耗时可能受到数据加载、环境启动、checkpoint 保存、评测配置和任务复杂度影响。
 
@@ -172,7 +172,7 @@
 阶段二：1,600 credits
 用途：继续训练、多个 10k steps 方向测试，或一次完整 30k steps 训练
 
-比赛结束后统一评测：4 GPUs 约 758 credits/队，8 GPUs 约 1,217 credits/队；不含实例启动、任务重试和评测异常等额外开销
+比赛结束后统一评测：4 GPUs 或 8 GPUs 均约 400 credits/队；不含实例启动、任务重试和评测异常等额外开销
 
 排队单位：队伍
 队伍重复排队：不允许
